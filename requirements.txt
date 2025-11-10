@@ -1,0 +1,10 @@
+# 基础依赖
+pillow>=9.0.0
+requests>=2.26.0
+numpy>=1.21.0
+
+# 火山引擎SDK（可选，如果需要使用SDK方式调用）
+volcengine-python-sdk[ark]>=1.0.0
+
+# ComfyUI依赖（通常由ComfyUI环境提供）
+torch>=2.0.0
